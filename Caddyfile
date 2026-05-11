@@ -1,0 +1,8 @@
+https://localhost:8447, https://127.0.0.1:8447, https://10.14.29.30:8447 {
+	tls certs/smartparking-local.pem certs/smartparking-local-key.pem
+	root * .
+	file_server
+	header {
+		Cache-Control "no-store"
+	}
+}
